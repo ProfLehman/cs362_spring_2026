@@ -36,15 +36,15 @@ Learning algorithms. (3 credits - Spring Even Years) *Prerequisite: CS 111 (216 
 
 ## Textbook
 
-There are no required textbooks for this course. Readings including papers, websites, and online texts will be assigned throughout the semester.
+There are no required textbooks for this course. Readings, including papers, websites, and online texts, will be assigned throughout the semester.
 
-Students may find access to a commercial AI subscription (such as a large language model) helpful throughout the course. No paid AI tools are required; free and open-source alternatives will be demonstrated and supported.
+Students may find access to a commercial AI subscription (such as a large language model) helpful throughout the course.
 
 A key resource for this course is the [HarvardX: CS50's Introduction to Artificial Intelligence with Python course](https://cs50.harvard.edu/ai/).
 
 While not required for this course, students considering graduate study should consider
 purchasing *Artificial Intelligence: A Modern Approach* by Stuart Russell and Peter Norvig (4th
-edition) which is considered a definitive in the field of AI.
+edition) which is considered a definitive text in the field of AI.
 
 ---
 
@@ -79,9 +79,9 @@ Each course component is worth a specific number of points. The percentage of to
 
 ## Course Engagement (10%)
 
-Active Course Engagement is vital for success in this course. Weekly readings and textbook exercises present the course material and provide the background needed to complete problem sets and prepare for exams. Students are encouraged to take notes summarizing topics covered in class and while working through textbook exercises. Throughout the semester, students will be asked to complete assigned readings and short exercises as part of the Course Engagement grade. These activities are designed to help students prepare for class and actively engage with course material. These exercises may include brief written responses, short online submissions, or in-class activities. In some cases, students may be asked to demonstrate engagement by answering questions, participating in discussions, or applying concepts during class. Completion and thoughtful participation, rather than perfection, are the primary expectations for these activities. Students are encouraged to ask questions during class sessions, utilize office hours, and send questions via email and text.
+Active Course Engagement is vital for success in this course. Weekly readings and in-class exercises present the course material and provide the background needed to complete problem sets and prepare for final projects. Students are encouraged to take notes that summarize the topics covered in class and while working through problem sets. Throughout the semester, students will be asked to complete assigned readings and short exercises as part of the Course Engagement grade. These activities are designed to help students prepare for class and actively engage with course material. These exercises may include brief written responses, short online submissions, or in-class activities. In some cases, students may be asked to demonstrate engagement by answering questions, participating in discussions, or applying concepts during class. Completion and thoughtful participation, rather than perfection, are the primary expectations for these activities. Students are encouraged to ask questions during class sessions, utilize office hours, and send questions via email and text.
 
-**Course Engagement grades** are recorded at midterm (50 poitns) and at end of course (50 points). Scores are based on attendance, in-class work, weekly assignments, communication with the instructor (such as asking questions or sharing insights), a participation self-reflection, and the instructor’s observations. **Course Engagement is not a single assignment but a cumulative assessment of participation and engagement over time.**
+**Course Engagement grades** are recorded at midterm (50 points) and at the end of the course (50 points). Scores are based on attendance, in-class work, weekly assignments, communication with the instructor (such as asking questions or sharing insights), a participation self-reflection, and the instructor’s observations. **Course Engagement is not a single assignment but a cumulative assessment of participation and engagement over time.**
 
 ### Attendance
 
@@ -91,7 +91,7 @@ Attendance is recorded at the beginning of class. Students are expected to atten
 
 Huntington University policy requires students to attend at least two-thirds (2/3) of scheduled class sessions in a face-to-face course. **Students who miss one-third or more of class meetings will automatically fail the course.** This total includes excused absences for athletics, music, other university activities, or illness. Students are responsible for all material they miss.
 
-If you arrive late or need to leave early, use the door opposite the instructor (SH 175) workstation and do so quietly. Attending part of a session is better than missing entirely.
+If you arrive late or need to leave early, please do so quietly. Attending part of a session is better than missing entirely.
 
 Do not attend class if you are sick. Your health and the health of others come first.
 
@@ -103,25 +103,23 @@ Virtual class sessions may be scheduled occasionally when the instructor has a c
 
 ## Problem Sets (60%)
 
-Weekly problem sets are assigned throughout the semester. These assignments are designed to help you apply and integrate the course concepts discussed in readings, online resources, and class sessions. The material covered will assist students in preparing for the final group project. Please ensure your work is neat, organized, and clearly labeled with your first and last name. Add your name to program comments for all code submitted.
+Weekly problem sets are assigned throughout the semester. These assignments are designed to help you apply and integrate the course concepts discussed in readings, online resources, and class sessions. The material covered will help students prepare for the final group project. Please ensure your work is neat, organized, and clearly labeled with your first and last name. Add your name to the program comments for all code submitted.
 
 --- 
 
 ## Ethics Paper (10%)
 
 Students will write an ethics paper discussing an ethical issue (or issues) related to AI
-and Machine Learning. Paper must include how biblical principles and their personal faith apply to the
+and Machine Learning. The paper must include how biblical principles and their personal faith apply to the
 topic. The paper must be 2500 words (or more) and include five (or more) references. Paper format must
 be APA or MLA format. A Grammarly performance report PDF must be submitted with a score of 90
-(or higher). Papers will be submitted via Turn-it-in. Detailed project requirements, milestones, and due dates will be posted on Moodle.
+(or higher). Papers will be submitted via Turnitin. Detailed project requirements, milestones, and due dates will be posted on Moodle.
 
 ---
 
 ## Group Project (20%)
 
-Students will complete a group project in which they research and introduce an artificial intelligence or machine learning topic that extends beyond the core material covered in class. Working in small groups (2 or 3), students will become “experts” on their chosen topic and design a short instructional module intended to introduce the topic. This project emphasizes conceptual understanding, synthesis of ideas, and clear communication rather than mathematical depth or large-scale system implementation.
-
-Each group will develop instructional materials that include an overview of the topic, selected learning resources, and an original assignment or activity appropriate for this course, along with a grading key. Groups will present their topic to the class during the final exam session. Detailed project requirements, milestones, and due dates will be posted on Moodle. Preliminary topics and groups must be selected by midterm.
+Students will complete a group project in which they research and introduce an artificial intelligence or machine learning topic that extends beyond the material covered in class. Working in small groups (2 or 3), students will become “experts” on their chosen topic and design a short instructional module intended to introduce the topic. Each group will develop instructional materials that include an overview of the topic, selected learning resources, and an original assignment or activity tailored to this course, along with a corresponding grading rubric. Groups will present their projects to the class during the final exam session. Detailed project requirements, milestones, and due dates will be posted on Moodle. Preliminary topics and groups must be selected by midterm.
 
 ---
 
