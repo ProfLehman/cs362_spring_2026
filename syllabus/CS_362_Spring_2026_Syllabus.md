@@ -121,7 +121,7 @@ be APA or MLA format. A Grammarly performance report PDF must be submitted with 
 
 Students will complete a group project in which they research and introduce an artificial intelligence or machine learning topic that extends beyond the core material covered in class. Working in small groups (2 or 3), students will become “experts” on their chosen topic and design a short instructional module intended to introduce the topic. This project emphasizes conceptual understanding, synthesis of ideas, and clear communication rather than mathematical depth or large-scale system implementation.
 
-Each group will develop instructional materials that include an overview of the topic, selected learning resources, and an original assignment or activity appropriate for this course, along with a grading key. Groups will present their topic to the class during the final exam session. Additional project details, expectations, grading criteria, and approved topic examples will be provided on a separate project page on Moodle, with groups and topics selected by midterm.
+Each group will develop instructional materials that include an overview of the topic, selected learning resources, and an original assignment or activity appropriate for this course, along with a grading key. Groups will present their topic to the class during the final exam session. Detailed project requirements, milestones, and due dates will be posted on Moodle. Preliminary topics and groups must be selected by midterm.
 
 ---
 
