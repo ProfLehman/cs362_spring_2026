@@ -3,7 +3,7 @@
 **Due: Thursday, January 29th at 5:00 pm.**  
 **60 points**  
 
-# P2 - AI Search - Min Max (Miminmax Algorithm)
+# P2 - AI Search - Min Max (Mimimax Algorithm)
 
 ## Overview 
 
