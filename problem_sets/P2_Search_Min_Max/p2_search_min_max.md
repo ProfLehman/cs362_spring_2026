@@ -3,7 +3,7 @@
 **Due: Thursday, January 29th at 5:00 pm.**  
 **60 points**  
 
-# P2 - AI Search - Min Max 
+# P2 - AI Search - Min Max (Miminmax Algorithm)
 
 ## Overview 
 
@@ -22,10 +22,10 @@ while **Player O (MIN)** chooses moves to **minimize the score**.
 
 In this assignment, you will compare:
 1. A complete minimax tree (4 moves remaining), and
-2. A depth-limited minimax tree (only 2 moves remaining), evaluated using a heuristic function describe by Tanimoto in *The Elements of Artificial Intelligence*.
+2. A depth-limited minimax tree (only 2 moves remaining), evaluated using a heuristic function described by Tanimoto in *The Elements of Artificial Intelligence*.
 
 ---
-## Part 1. Complete Tree with four remining moves (20 points)
+## Part 1. Complete Tree with four remaining moves (30 points)
 
 Choose a Tic-Tac-Toe board state with exactly four empty squares remaining. **Your state must be different from the two class examples**.
 
@@ -37,7 +37,7 @@ Choose a Tic-Tac-Toe board state with exactly four empty squares remaining. **Yo
  X |   |                     |   | O
 ```
 
-Have **X** move first, thus your starting board will have three X's and two O's, thus it will be **O's** turn.
+Have **X** move first; your starting board will have three X's and two O's, so it will be **O's** turn.
 
 
 Draw the **entire minimax decision tree** from this position to the end of the game. There are most **four moves** as you can stop any branch that reaches a "win" for either X or O.
@@ -56,14 +56,14 @@ Propagate values back to the root using minimax.
   
 Clearly indicate the best move at the root.
 
-Trees should match format demonstrated in class examples.
+Trees should match the format demonstrated in class examples.
 
-Neatly hand draw your decision tree representing all possible moves from the current state of the game and showing the Min/Max values that would be propagated back to the root node. Use colored ink/pencils to make your diagrams clear. You may want to use 11” x 14” paper.
+Neatly hand-draw your decision tree representing all possible moves from the current state of the game and showing the Min/Max values that would be propagated back to the root node. Use colored ink/pencils to make your diagrams clear. You may want to use 11” x 14” paper.
 
 ---
-## Part 2. Partial Tree with two remaing moves (20 points)
+## Part 2. Partial Tree with two remaining moves (20 points)
 
-Using the **same starting board** state from Part 1.  Create a tree that shows the **next two moves** using the evaluation function describe by Tanimoto in *The Elements of Artificial Intelligence*.
+Using the **same starting board** state from Part 1.  Create a tree that shows the **next two moves** using the evaluation function described by Tanimoto in *The Elements of Artificial Intelligence*.
 
 Score = (A x 100) + (B x 10) + C - [ (D x 100) + (E x 10) + F ]
 
@@ -72,17 +72,19 @@ B is the number of 2 in a row X's with open blank
 C is the number of 1 in a row X's with open blanks  
 
 D is the number of 3 in a row O's  
-E is the number of 2 in a row O's with open blank  
+E is the number of 2 in a row O's with an open blank  
 F is the number of 1 in a row O's with open blanks  
 
 ---
 ## Part 3. Analysis (10 points)
 
+Answer each of the following questions (approximately 1-sentence to a paragraph each)
+
 1. What move does the full minimax tree (Part 1) recommend?
 2. What move does the depth-limited tree (Part 2) recommend?
 3. Are the two recommended moves the same? If they differ, explain why the evaluation function may favor a different move.
 4. Does the depth-limited tree appear to favor short-term advantage or long-term outcomes? Give one example from your tree.
-5. Do the moves recommended for Part 1 and 2 match with what you think is the best move?
+5. Do the moves recommended for Parts 1 and 2 match what you think is the best move?
 6. Will a different move for Part 1 lead to a quicker win?
 
 
