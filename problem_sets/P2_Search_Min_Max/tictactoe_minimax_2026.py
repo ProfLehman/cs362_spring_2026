@@ -25,12 +25,14 @@ from typing import List, Optional, Tuple
 
 CURRENT_PLAYER = "O"  # "X" (MAX) or "O" (MIN)
 
-# pick one of the following evaluation functions
+# *** note(1): pick one of the following evaluation functions ***
 #EVAL_MODE = "terminal_only"
 EVAL_MODE = "tanimoto_100_10_1"
 
+# *** note(2): set search depth to 4 for terminal_only class example ***
 SEARCH_DEPTH = 2 # plies (ie. depth to search)
 
+# *** note(3): set your board here ***
 START_BOARD = [
     " ", "O", "X",
     " ", "O", "X",
