@@ -16,7 +16,8 @@ The algorithm maintains two values, alpha and beta, which represent the minimum 
 ---
 ## Part 1. Alpha Beta Pruning (30 points)
 
-Create a **sample binary tree** with x16 random values using the sample code provided. Capture and submit a screenshot of the tree.  Pick a tree that has prunes **three (or more) branches** including at least one that occurs above the leaf nodes. Note: to alternate values for tree, set the random seed.
+Create a **sample binary tree** with x16 random values using the sample code provided. Use the Python sample code 
+posted ie. [`alphaBeta.py`](alphaBeta.py). Capture and submit a **screenshot** of the tree.  Choose a tree that results in **at least three pruning events**including at least one that occurs above the leaf nodes. Note: to generate sample trees, set the random seed. Tree must differ from class examples.
 
 **Draw the tree with the Alpha and Beta values** shown for each node. Show the branches that would be pruned. Show the Alpha and Beta values at each level as demonstrated in the class examples.
 
@@ -28,7 +29,7 @@ You must each **submit your own hand-drawn tree**, but you are encouraged to dis
 ---
 ## Part 2. Analysis and Further Research (30 points)
 
-**On your own (not as a group) answer each of the following questions using and AI bot, Internet Search, print, or web resources.  
+**On your own** (not as a group) answer each of the following questions using and AI bot, Internet Search, print, or web resources.  
 
 List any AI system (or systems) you used to assist with the homework and briefly (1-sentence) describe how you used the system.
 
