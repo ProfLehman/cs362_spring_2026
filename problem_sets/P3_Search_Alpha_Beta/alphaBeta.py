@@ -1,13 +1,18 @@
 # alphaBeta.py
 # prof. lehman
 # code generated and slightly modified from chat GPT 4 prompt
-# spring 2024
+# spring 2024, updated number range 2026
 #
 # creates a tree with x16 child nodes
 #
 #  
 
 import random
+
+# set random seed ie. will get same set of random numbers
+# comment out or change seed to change numbers
+random.seed(12)
+
 
 class Node:
     def __init__(self, depth, is_maximizing_player, value=None):
@@ -26,7 +31,7 @@ def create_tree(node, current_depth, max_depth=4):
         node.add_child(create_tree(Node(current_depth + 1, not node.is_maximizing_player), current_depth + 1, max_depth))
     else:
         
-        node.value = random.randint(0, 10)  # Assigning random values at leaf nodes
+        node.value = random.randint(0, 100)  # Assigning random values at leaf nodes
     return node
 
 def minimax(node, depth, alpha, beta, is_maximizing_player):
@@ -68,9 +73,6 @@ def print_tree(node, indent="", last=True):
 
 # Create and display the tree
 
-# set random seed ie. will get same set of random numbers
-# comment out or change seed to change numbers
-random.seed(78)
 
 root = create_tree(Node(0, True), 0)
 minimax_value = minimax(root, 4, float('-inf'), float('inf'), True)
