@@ -16,14 +16,13 @@ The algorithm maintains two values, alpha and beta, which represent the minimum 
 ---
 ## Part 1. Alpha Beta Pruning (30 points)
 
-A. Create a **sample binary tree** with x16 random values using the sample code provided. Capture and submit a screenshot of the tree.  Pick a tree that has prunes **three (or more) branches** including at least one that occurs above the leaf nodes. Note: to alternate values for tree, set the random seed.
+Create a **sample binary tree** with x16 random values using the sample code provided. Capture and submit a screenshot of the tree.  Pick a tree that has prunes **three (or more) branches** including at least one that occurs above the leaf nodes. Note: to alternate values for tree, set the random seed.
+
+**Draw the tree with the Alpha and Beta values** shown for each node. Show the branches that would be pruned. Show the Alpha and Beta values at each level as demonstrated in the class examples.
 
 Work with another student and agree on the **same starting binary tree**.  
 
-You must each submit your own hand-drawn tree, but you are encouraged to discuss and compare results. Note the person (or persons) on your work submitted.  
-
-
-B. **Draw the tree with the Alpha and Beta values** shown for each node. Show the branches that would be pruned. Show the Alpha and Beta values at each level as demonstrated in the class examples.
+You must each **submit your own hand-drawn tree**, but you are encouraged to discuss and compare results. Note the person (or persons) on your work submitted.  
 
 
 ---
@@ -33,7 +32,7 @@ B. **Draw the tree with the Alpha and Beta values** shown for each node. Show th
 
 List any AI system (or systems) you used to assist with the homework and briefly (1-sentence) describe how you used the system.
 
-1. Write an **overview** of Alpha-Beta pruning. (three to four paragraphs)  
+1. Write an **overview** of Alpha-Beta pruning. (three to four or more paragraphs)  
 
 2. Briefly list **four additional two-player games** (beyond tic-tac-toe, chess, checkers, connect-four) that could use alpha-beta pruning. (one or two sentences each)  
 
@@ -51,7 +50,7 @@ For #3, #4, and #5 pick **one** of the games you listed for #2
 
 ## Submitting your Assignment
 
-Upload a copy of your answers for Part 2. and submit paper copies of your tree for Part 1.
+Upload a copy of your answers for Part 2. and submit paper copy of your tree for Part 1.
 
 11 x 14 paper is availalbe from Prof. Lehman
 
