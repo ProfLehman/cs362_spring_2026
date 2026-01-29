@@ -37,7 +37,7 @@ List any AI system (or systems) you used to assist with the homework and briefly
 
 2. Briefly list **four additional two-player games** (beyond tic-tac-toe, chess, checkers, connect-four) that could use alpha-beta pruning. (one or two sentences each)  
 
-For #3, #4, and #5 pick **one** of the games you listed for #2
+For #3, #4, #5, and #6 pick **one** of the games you listed for #2
 
 3. Describe the "search" space (one or two paragraphs). Estimate the search space size at each ply and provide actual values if available (include references if applicable). (two or more paragraphs)
 
