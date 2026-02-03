@@ -13,6 +13,8 @@
 
 The algorithm maintains two values, alpha and beta, representing the minimum and maximum scores the maximizing and minimizing players are assured of, respectively. By updating these values during traversal, branches that cannot improve the outcome are pruned, resulting in a significant reduction in computation (and storage), especially in deep game trees (such as chess), without affecting the final result.
 
+See [Alpha-Beta Overview notes](https://github.com/ProfLehman/cs362_spring_2026/tree/main/problem_sets/P3_Search_Alpha_Beta)
+
 ---
 ## Part 1. Alpha Beta Pruning (30 points)
 
