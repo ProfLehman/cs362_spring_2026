@@ -27,6 +27,7 @@ Work with another student and agree on the **same starting binary tree**.
 
 You must each **submit your own hand-drawn tree**, but you are encouraged to discuss and compare results. Note the person (or persons) on your work submitted.  
 
+See [blank_tree.pdf](https://github.com/ProfLehman/cs362_spring_2026/blob/main/problem_sets/P3_Search_Alpha_Beta/blank_tree.pdf)
 
 ---
 ## Part 2. Analysis and Further Research (30 points)
