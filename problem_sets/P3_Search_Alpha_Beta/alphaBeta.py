@@ -11,7 +11,7 @@ import random
 
 # set random seed ie. will get same set of random numbers
 # comment out or change seed to change numbers
-random.seed(12)
+random.seed(14)
 
 
 class Node:
@@ -31,7 +31,7 @@ def create_tree(node, current_depth, max_depth=4):
         node.add_child(create_tree(Node(current_depth + 1, not node.is_maximizing_player), current_depth + 1, max_depth))
     else:
         
-        node.value = random.randint(0, 100)  # Assigning random values at leaf nodes
+        node.value = random.randint(1, 50)  # Assigning random values at leaf nodes
     return node
 
 def minimax(node, depth, alpha, beta, is_maximizing_player):
@@ -48,6 +48,7 @@ def minimax(node, depth, alpha, beta, is_maximizing_player):
                 for c in node.children[node.children.index(child)+1:]:
                     c.pruned = True
                 break
+        print("max_eval", max_eval)
         return max_eval
     else:
         min_eval = float('inf')
@@ -59,6 +60,7 @@ def minimax(node, depth, alpha, beta, is_maximizing_player):
                 for c in node.children[node.children.index(child)+1:]:
                     c.pruned = True
                 break
+        print("     min_eval", min_eval)        
         return min_eval
 
 def print_tree(node, indent="", last=True):
@@ -72,8 +74,6 @@ def print_tree(node, indent="", last=True):
         print_tree(child, indent, last)
 
 # Create and display the tree
-
-
 root = create_tree(Node(0, True), 0)
 minimax_value = minimax(root, 4, float('-inf'), float('inf'), True)
 print("Minimax Value: ", minimax_value)
