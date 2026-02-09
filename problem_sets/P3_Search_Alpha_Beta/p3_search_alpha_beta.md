@@ -16,6 +16,7 @@ The algorithm maintains two values, alpha and beta, representing the minimum and
 See [Alpha-Beta Overview notes](https://github.com/ProfLehman/cs362_spring_2026/tree/main/problem_sets/P3_Search_Alpha_Beta)
 
 See [Class examples 1 and 2](https://github.com/ProfLehman/cs362_spring_2026/blob/main/problem_sets/P3_Search_Alpha_Beta/class_examples_1_and_2_complete.pdf)
+
 ---
 ## Part 1. Alpha Beta Pruning (30 points)
 
