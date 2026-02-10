@@ -4,7 +4,7 @@
 **Due: Tuesday, February 17, 2026 at 5 pm.**
 # P4 - AI Search - Algorithms - Draft
 
-![BFS DFS A-Star logo](bfs_dfs_astar.png)
+![BFS DFS A-Star logo](bfs_dfs_astar2.png)
 
 ## Overview 
 
