@@ -1,5 +1,3 @@
----
-
 # CS 362 Artificial Intelligence and Machine Learning
 **Spring 2026**  
 **60 points**  
