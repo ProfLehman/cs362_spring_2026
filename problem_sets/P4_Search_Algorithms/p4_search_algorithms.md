@@ -2,7 +2,7 @@
 **Spring 2026**  
 **60 points**  
 **Due: Tuesday, February 17, 2026 at 5 pm.**
-# P4 - AI Search - Algorithms - Draft
+# P4 - AI Search - Algorithms
 
 ![BFS DFS A-Star logo](bfs_dfs_astar2.png)
 
