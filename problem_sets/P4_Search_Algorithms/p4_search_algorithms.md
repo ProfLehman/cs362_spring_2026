@@ -1,6 +1,4 @@
 ---
-# Draft
----
 
 # CS 362 Artificial Intelligence and Machine Learning
 **Spring 2026**  
@@ -32,7 +30,7 @@ displaying steps explored and number of steps to solution, and storing history f
 
 ## Part 1 — Create Six Mazes
 
-Begin by creating the **six mazes** for your trials.
+Begin by creating the **six mazes** for your trials. Use [`p4_maze_creator.py`](p4_maze_creator.py) to create your mazes.
 
 You will have **two different sizes (10 x 15, 20 x 40)**.
 
@@ -137,7 +135,7 @@ Use a table similiar to the following to record your results. Sample filenames a
 
 Use the [`p4_maze_viewer.py`](p4_maze_viewer.py) program to visualize each of the x18 searches from Part 3.
 
-Write **at least 3–4 paragraphs** that interpret your results. Your analysis should address:
+Write **at least 3 to 4 paragraphs** that interpret your results. Your analysis should address:
 
 * How did BFS, DFS, and A* compare on **Steps** and **Steps Explored**?
 * Did the algorithms behave as expected on:
