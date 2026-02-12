@@ -1,6 +1,6 @@
 # MinesKnowlegeModel_Lehman.py
 # prof. lehman
-# spring 2024
+# spring 2024 (updated class examples spring 2026)
 # CS 262 AI and Machine Learning
 #
 # Knowledge model to determine mine locations
@@ -25,6 +25,7 @@
 # knowledge model
 km = {}
 
+
 # Sample Board and Knowlege Model
 # (show your sample board in same format)
 # 
@@ -38,6 +39,91 @@ km["b,c,d"] = 2
 km["c,d"] = 1
 
 
+# -------------------------------------------------------
+
+# Handout Example - board 1 of 2
+
+# ab1
+# c21
+# d1
+# e1
+
+"""
+km["b"] = 1
+km["a,b,c,d"] = 2
+km["c,d,e"] = 1
+km["d,e"] = 1
+"""
+
+# mines: ['b']
+# open:  ['c']
+#   km:  {'a,d': 1, 'd,e': 1}
+
+# Handout Example - board 2 of 2
+
+# ab1
+# 221
+# c1
+# d1
+"""
+km["b"] = 1
+km["a,b"] = 2
+km["a,b,c"] = 2
+km["c,d"] = 1
+"""
+# mines:  ['a', 'b']
+# open:  ['c']
+#   km:  {}
+
+
+# Handout Example - board 2 of 2 - Alternate
+
+# if since we learned the position of a previous
+# mine, we can mark the mine and reduce the numbers
+# around the mine
+# 
+# am0
+# 110
+# b1 
+# c1
+"""
+km["b,c"] = 1
+km["a,b"] = 2
+"""
+# mines:  ['a', 'b']
+# open:  ['c']
+#   km:  {}
+   
+# -------------------------------------------------------
+# Class Example 12 February 2026 - board 1 of 2
+
+# abcd
+# 112e
+#   1f
+#   1g
+
+"""
+km["a,b"] = 1
+km["a,b,c"] = 1
+km["b,c,d,e,f"] = 2
+km["e,f,g"] = 1
+km["f,g"] = 1
+"""
+
+
+# Class Example 12 February 2026 - board 2 of 2
+
+# ab1c
+# 1121
+#   1d
+#   1e
+"""
+km["a,b"] = 1
+km["d,e"] = 1
+km["b,c,d"] = 2
+km["c,d"] = 1
+km["b,c"] = 1
+"""
 
 mines = []
 clear = []
@@ -143,12 +229,12 @@ while changes == True:
     
     #loop
   
-# indented to see how knowledge model changes each round
-# ie. indenting will make prints part of loop
-print()
-print( "mines: ", mines )
-print( " open: ", clear )
-print( "   km: ", km )
-print()
+    # indented to see how knowledge model changes each round
+    # undent this section to limit output to final answer
+    print()
+    print( "mines: ", mines )
+    print( " open: ", clear )
+    print( "   km: ", km )
+    print()
 
 
