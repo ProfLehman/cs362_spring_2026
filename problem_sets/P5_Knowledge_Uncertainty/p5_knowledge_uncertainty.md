@@ -43,6 +43,8 @@ Describe the scenario in your comments and add your name and date.
 
 You will upload your modified `testLogic.py`.
 
+Note: See [`harryLogic.py`](./harryLogic.py) for sample from Harvard video lecture.
+
 ---
 
 ### As a single .zip file
