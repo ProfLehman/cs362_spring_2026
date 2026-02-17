@@ -28,7 +28,7 @@ For each of your three games show the following
 
 ### B. (10 points) Minesweeper code.
 
-Use the code in [`MinesKnowledgeModel_Lehman.py`](MinesKnowledgeModel_Lehman.py) to verify your work.  
+Use the code in [`MinesKnowledgeModel_Lehman.py`](./MinesKnowlegeModel_Lehman.py) to verify your work.  
 Code **one of your games** using this file and upload the file `MinesKnowledgeModel_YourName.py` (ie. MinesKnowledgeModel_Amy_Smith)
 
 ---
@@ -37,8 +37,8 @@ Code **one of your games** using this file and upload the file `MinesKnowledgeMo
 
 ![logic](logic_sm.png)
 
-Using the logic examples from Harvard’s CS 50 course (logic.py and [`testLogic.py`](testLogic.py)) 
-update the testLogic.py for a sample scenario. Rename the file `testLogic_YourName.py`(ie. testLogic_Amy_Smith)
+Using the logic examples from Harvard’s CS 50 course `logic.py` and [`testLogic.py`](./testLogic.py)
+Update the `testLogic.py` for a sample scenario. Rename the file `testLogic_YourName.py` (ie. testLogic_Amy_Smith)
 Describe the scenario in your comments and add your name and date.
 
 You will upload your modified `testLogic.py`.
