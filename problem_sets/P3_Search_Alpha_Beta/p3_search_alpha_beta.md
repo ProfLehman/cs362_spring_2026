@@ -3,7 +3,7 @@
 **Due: Thursday, Febrary 4th at 5:00 pm.**  
 **60 points**  
 
-# P2 - AI Search - Alpha-Beta Pruning
+# P3 - AI Search - Alpha-Beta Pruning
 
 ![alpha beta logo](alpha_beta.png)
 
