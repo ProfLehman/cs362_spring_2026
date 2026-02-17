@@ -7,7 +7,7 @@
 
 ![minesweeper grid](minesweeper_grid_1.png)
 
-### A. (30 points)
+### A. (30 points) Minesweeper Knowlege Map
 
 Using the Minesweeper AI Agent algorithm discussed in class, create and simplify and knowledge map for the game of Minesweeper for three different Minesweeper games. Pick a small board (say 4 x 4) with 6 to 10 unknown tiles. Label the tiles a, b, c … and create a knowledge map.
 
@@ -26,17 +26,19 @@ For each of your three games show the following
 
 ---
 
-### B. (10 points)
+### B. (10 points) Minesweeper code.
 
-Use the code in AI_Mines_Lehman.py to verify your work.  
-Code one of your games using this file and upload the file AI_Mines_YourName.py Show the board in your comments.
+Use the code in [`MinesKnowledgeModel_Lehman.py`](MinesKnowledgeModel_Lehman.py) to verify your work.  
+Code **one of your games** using this file and upload the file `MinesKnowledgeModel_YourName.py` (ie. MinesKnowledgeModel_Amy_Smith)
 
 ---
 
-### C. (20 points)
+### C. (20 points) Logic
 
-Using the logic class from Harvard’s CS 50 course (logic.py and testLogic.py) 
-update the testLogic.py for a sample scenario. 
+![logic](logic_sm.png)
+
+Using the logic examples from Harvard’s CS 50 course (logic.py and [`testLogic.py`](testLogic.py)) 
+update the testLogic.py for a sample scenario. Rename the file `testLogic_YourName.py`(ie. testLogic_Amy_Smith)
 Describe the scenario in your comments and add your name and date.
 
 You will upload your modified `testLogic.py`.
@@ -45,9 +47,9 @@ You will upload your modified `testLogic.py`.
 
 ### As a single .zip file
 
-1. `testLogic.py`  
+1. `testLogic_YourName.py`  
 2. Three knowledge maps (.pdf)  
-3. `AI_Mines_YourName.py`  
+3 `MinesKnowledgeModel_YourName.py` 
 
 ---
 
