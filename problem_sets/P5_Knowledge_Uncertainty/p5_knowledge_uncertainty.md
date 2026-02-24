@@ -1,7 +1,7 @@
 # CS 362 Artificial Intelligence and Machine Learning
 **Spring 2026**  
 **60 points**  
-**Due: Thursday, February 26, 2026 at 5 pm.**
+**Due: Tuesday, March 10th at 5 pm.**
 ## P5 Knowledge Models and Uncertainty
 
 
