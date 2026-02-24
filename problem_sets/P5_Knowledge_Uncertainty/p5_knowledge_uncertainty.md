@@ -43,9 +43,11 @@ Describe the scenario in your comments and add your name and date.
 
 You will upload your modified `testLogic.py`.
 
-Note: See [`harryLogic.py`](./harryLogic.py) for sample from Harvard video lecture.
+Note: See [`harryLogic.py`](./harryLogic.py) for a sample from the Harvard video lecture.
 
-See [mastermind class example](./mastermind_lehman.py)
+See [mastermind first class example](./mastermind_lehman.py)
+
+See [mastermind second in-class example](./mastermind_in_class.py)
 
 ---
 
