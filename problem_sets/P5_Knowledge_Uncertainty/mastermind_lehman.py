@@ -37,8 +37,9 @@ symbols = [red1, green1, blue1,
            red2, green2, blue2,
            red3, green3, blue3 ]
 
-# start with And so that we can add to knowledge
+# start with And so that we can add to
 knowledge = And()
+
 
 # starting knowledge
 # red, green, or blue will be selected for 1, 2, 3
@@ -57,11 +58,12 @@ print()
 # we guess G B R    0 correct position, 2 colors
 check_knowledge()
 
-# since 
+# we know that the colors for 1, 2, and 3 are not green, blue, red
 knowledge.add(And(Not(green1)))
 knowledge.add(And(Not(blue2)))
 knowledge.add(And(Not(red3)))
               
+# we also know that the colors for 1, 2, and 3 are two choices
 knowledge.add(And(Or(blue1, red1)))
 knowledge.add(And(Or(green2, red2)))
 knowledge.add(And(Or(green3, blue3)))
@@ -74,6 +76,8 @@ check_knowledge()
 # we guess G B R    0 correct position, 2 colors
 # we guess B R G    2 correct position, 2 colors
 
+# give that we have 2 correct positions
+# we know that we have one of three options
 knowledge.add(
     And(
     Or(blue1, red2, Not(green3)),
@@ -83,6 +87,7 @@ knowledge.add(
     
 check_knowledge()                
 
+
 # next guess
 #          1 2 3
 #    start R R G
@@ -90,13 +95,17 @@ check_knowledge()
 # we guess B R G    2 correct position, 2 colors
 # we guess R G R    2 correct position, 3 colors
 
+# given that we have 3 colors correct we know we
+# have one of three options
 knowledge.add(
     Or(
     And(red1, green2, red3),
     And(green1, red2, red3),
     And(red1, red2, green3)))
 
-check_knowledge()                
+check_knowledge()   # at this point we have solved it             
+
+
 
 
 
