@@ -45,6 +45,8 @@ You will upload your modified `testLogic.py`.
 
 Note: See [`harryLogic.py`](./harryLogic.py) for sample from Harvard video lecture.
 
+See [mastermind class example](./mastermind_lehman.py)
+
 ---
 
 ### As a single .zip file
