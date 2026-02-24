@@ -53,7 +53,7 @@ See [mastermind class example](./mastermind_lehman.py)
 
 1. `testLogic_YourName.py`  
 2. Three knowledge maps (.pdf)  
-3 `MinesKnowledgeModel_YourName.py` 
+3. `MinesKnowledgeModel_YourName.py` 
 
 ---
 
