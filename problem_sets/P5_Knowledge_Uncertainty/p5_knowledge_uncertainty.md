@@ -1,7 +1,7 @@
 # CS 362 Artificial Intelligence and Machine Learning
 **Spring 2026**  
 **60 points**  
-**Due: Thursday, February 26, 2026 at 5 pm.**
+**Due: Tuesday, March 10th at 5 pm.**
 ## P5 Knowledge Models and Uncertainty
 
 
@@ -45,13 +45,15 @@ You will upload your modified `testLogic.py`.
 
 Note: See [`harryLogic.py`](./harryLogic.py) for sample from Harvard video lecture.
 
+See [mastermind class example](./mastermind_lehman.py)
+
 ---
 
 ### As a single .zip file
 
 1. `testLogic_YourName.py`  
 2. Three knowledge maps (.pdf)  
-3 `MinesKnowledgeModel_YourName.py` 
+3. `MinesKnowledgeModel_YourName.py` 
 
 ---
 
