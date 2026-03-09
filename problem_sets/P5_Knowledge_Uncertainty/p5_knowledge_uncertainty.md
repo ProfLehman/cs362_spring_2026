@@ -19,7 +19,7 @@ Add each of your sample knowledge maps (original to final simplified) to a singl
 
 For each of your three games show the following
 
-1. Show the original game (screenshot or type)  
+1. Show the original game (screenshot or type)  Can use [online game](https://minesweeper.online/) to create sample boards (select beginner, then custom)
 2. Starting knowledge map ie. {a,b,c} = 2  
 3. Steps taken to simplify and find mines/open positions  
 4. Final knowledge map  
