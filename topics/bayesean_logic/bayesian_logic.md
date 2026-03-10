@@ -57,6 +57,8 @@ This means our **updated belief** depends on:
 
 # Example: The Monty Hall Problem
 
+![Monty Hall Problem](monty_hall.png)
+
 The **Monty Hall problem** is a classic probability puzzle based on a television game show.
 
 ### Game Setup
@@ -191,7 +193,7 @@ The remaining door therefore has:
 So switching wins **99% of the time**.
 
 ---
-![(]100 Door Version](monty_hall_100.png)
+![100 Door Version](monty_hall_100.png)
 ---
 
 # Bayesian Analysis of the 100-Door Problem
