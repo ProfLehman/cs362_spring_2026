@@ -58,7 +58,7 @@ Find a better solution by moving to a **better neighbor**
 2. Look at **neighboring students**
 3. If a neighbor has a **better value (closer to target)**:
    - Pass the 🏆 to the **best neighbor**
-   - ***Note: do not back to previous neighbor (or neighbors) to prevent oscillation**
+   - ***Note: do not go back to the previous neighbor (or neighbors) to prevent oscillation***
 4. **Repeat** steps 2–3
 5. **Stop** when **no neighbor is better**
 
@@ -100,7 +100,7 @@ Start with the student holding the 🏆
    - *(cooling / lowering temperature)*
    - rate of **cooling** can be varied
 
-4. **Repeat (go to step 1.) ** until the system “stabilizes”
+4. **Repeat (go to step 1) ** until the system “stabilizes.”
 
 
 **Probability of Accepting Worse Moves (2 Dice 🎲🎲)**
