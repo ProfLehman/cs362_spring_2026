@@ -25,8 +25,12 @@ Minimize your **distance to the target**:
 - The student holding the 🏆 is the **current solution**
 - The trophy 🏆 shows where we are ie. the best solution we have seen so far
 - You may compare values with **neighboring students**  
-  (N, S, E, W, NE, NW, SE, SW)
   
+|  |  |  |
+|----|----|----|
+| NW | N  | NE |
+| W  | **current** | E  |
+| SW | S  | SE |
 
 ---
 
@@ -44,12 +48,7 @@ Minimize your **distance to the target**:
 ## Goal
 Find a better solution by moving to a **better neighbor**
 
-|  |  |  |
-|----|----|----|
-| NW | N  | NE |
-| W  | **current** | E  |
-| SW | S  | SE |
-
+\
 ---
 
 ## Process
