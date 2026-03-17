@@ -1,10 +1,10 @@
-## Class Demo – Optimization Game
+# Class Demo – Optimization Game
 
 ![optimization_approaches](./optimization_approaches.png)
 
 ---
 
-### Setup
+## Setup
 
 1. Instructor selects a **random number (1–100)**  
 2. Instructor selects a **random starting student**  
@@ -16,7 +16,7 @@
 
 ---
 
-### Goal
+## Goal
 
 Minimize your **distance to the target**:
 
@@ -30,15 +30,16 @@ Minimize your **distance to the target**:
 
 ---
 
-### Movement Rule
+## Movement Rule
 
 - If moving, **pass the 🏆 to the chosen neighbor**
 - The numbers **do not change**
 - The 🏆 represents the **current state moving through the space**
 
----
 
+---
 # Approach 1 – Local Search (Greedy / Hill Climbing)
+---
 
 ## Goal
 Find a better solution by moving to a **better neighbor**
@@ -66,8 +67,8 @@ Find a better solution by moving to a **better neighbor**
 - Always choosing the best local move does not guarantee finding the **global optimum**
 
 ---
-
-# 🔥 Approach 2 – Simulated Annealing (Improved Local Search)
+# Approach 2 – Simulated Annealing (Improved Local Search)
+---
 
 ## Goal
 Find a better solution by exploring neighbors while **occasionally accepting worse moves**
