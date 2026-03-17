@@ -12,7 +12,7 @@
    - Write it on a piece of paper  
    - Do **not share your number**  
 4. Instructor **reveals the target number**  
-5. Give the starting student the **🏆 trophy (current solution)**
+5. Give the starting student the **trophy (current solution)**
 
 ---
 
@@ -22,8 +22,8 @@ Minimize your **distance to the target**:
 
 > distance = |your number – target|
 
-- The student holding the 🏆 is the **current solution**
-- The trophy 🏆 shows where we are ie. the best solution we have seen so far
+- The student holding the trophy is the **current solution**
+- The trophy shows where we are ie. the best solution we have seen so far
 - You may compare values with **neighboring students**  
   
 |  |  |  |
@@ -36,9 +36,9 @@ Minimize your **distance to the target**:
 
 ## Movement Rule
 
-- If moving, **pass the 🏆 to the chosen neighbor**
+- If moving, **pass the trophy to the chosen neighbor**
 - The numbers **do not change**
-- The 🏆 represents the **current state moving through the space**
+- The trophy represents the **current state moving through the space**
 
 
 ---
@@ -48,15 +48,14 @@ Minimize your **distance to the target**:
 ## Goal
 Find a better solution by moving to a **better neighbor**
 
-\
 ---
 
 ## Process
 
-1. Start with the student holding the 🏆  
+1. Start with the student holding the trophy
 2. Look at **neighboring students**
 3. If a neighbor has a **better value (closer to target)**:
-   - Pass the 🏆 to the **best neighbor**
+   - Pass the trophy to the **best neighbor**
    - ***Note: do not go back to the previous neighbor (or neighbors) to prevent oscillation***
 4. **Repeat** steps 2–3
 5. **Stop** when **no neighbor is better**
@@ -86,12 +85,12 @@ Find a better solution by exploring neighbors while **occasionally accepting wor
 
 ## Process
 
-Start with the student holding the 🏆  
+Start with the student holding the trophy
 
 1. Look at **ALL neighboring students**
 
 2. Identify the **best neighbor** (closest to the target)
-   - If the best neighbor is **better**, then **Move** (pass the 🏆)
+   - If the best neighbor is **better**, then **Move** (pass the trophy)
    - Else: If the best neighbor is **worse**, then Roll two dice 🎲 :
       - If dice meet threshold (see below), then **Move**, otherwise **Stay**
 
@@ -102,7 +101,7 @@ Start with the student holding the 🏆
 4. **Repeat (go to step 1) ** until the system “stabilizes.”
 
 
-**Probability of Accepting Worse Moves (2 Dice 🎲🎲)**
+**Probability of Accepting Worse Moves (2 Dice)**
 
 | Stage        | Temperature | Threshold | Percent |
 |--------------|------------|----------|---------|
