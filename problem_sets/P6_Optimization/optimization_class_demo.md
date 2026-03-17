@@ -44,6 +44,12 @@ Minimize your **distance to the target**:
 ## Goal
 Find a better solution by moving to a **better neighbor**
 
+|  |  |  |
+|----|----|----|
+| NW | N  | NE |
+| W  | **current** | E  |
+| SW | S  | SE |
+
 ---
 
 ## Process
