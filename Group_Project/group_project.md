@@ -8,7 +8,7 @@
 ![group project graphic](./group_project.png)
 ---
 
-## Final Project Milestones
+## Group Project Milestones
 
 | Due Date | Milestone | Description |
 |----------|----------|-------------|
@@ -16,7 +16,7 @@
 | April 7   | Project Plan | Choose presentation date (April 21, April 23, or Final Exam April 30), 1-page outline for project and deliverables |
 |  April 21, 23, 30 | Presentations | Deliver lesson and activity |
 
-** final materials due April 30th at 1 pm. **
+**all final materials due April 30th at 1 pm.**
 ___
 
 ## Overview
