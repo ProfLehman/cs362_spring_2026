@@ -108,7 +108,7 @@ You are encouraged (but not required) to include a demonstration, such as:
 - Activity walkthrough
 
 ---
-### 5. Attenance (25 points)
+### 5. Attendance (25 points)
 
 Attending and actively participating in all of the presentations is 20 points of your project grade.
 
@@ -128,6 +128,17 @@ Your repository should include all project materials.
 Make sure your repository is accessible (public or shared with the instructor).
 
 ___
+## Final Project Milestones
+
+| Due Date | Milestone | Description |
+|----------|----------|-------------|
+| March 24   | Team & Topic | Form group (2–3) and submit topic (1–2 paragraphs) |
+| April 7   | Project Plan | Choose presentation date (April 21, April 23, or Final Exam April 30), 1-page outline for project and deliverables |
+|  April 21, 23, 30 | Presentations | Deliver lesson and activity |
+
+** final materials due April 30th at 1 pm. **
+___
+
 
 ## CS 362 Group Project – Grading Rubric (200 points)
 
