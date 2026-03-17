@@ -1,8 +1,8 @@
 ## Class Demo – Optimization Game
 
-
-
 ![optimization_approaches](./optimization_approaches.png)
+
+---
 
 ### Setup
 
@@ -11,7 +11,8 @@
 3. Each student picks a **random number (1–100)**  
    - Write it on a piece of paper  
    - Do **not share your number**  
-4. Instructor **reveals the target number**
+4. Instructor **reveals the target number**  
+5. Give the starting student the **🏆 trophy (current solution)**
 
 ---
 
@@ -21,8 +22,19 @@ Minimize your **distance to the target**:
 
 > distance = |your number – target|
 
-You may compare and **swap numbers with neighbors**  
-(N, S, E, W, NE, NW, SE, SW)
+- The student holding the 🏆 is the **current solution**
+- The trophy 🏆 shows where we are ie. the best solution we have seen so far
+- You may compare values with **neighboring students**  
+  (N, S, E, W, NE, NW, SE, SW)
+  
+
+---
+
+### Movement Rule
+
+- If moving, **pass the 🏆 to the chosen neighbor**
+- The numbers **do not change**
+- The 🏆 represents the **current state moving through the space**
 
 ---
 
@@ -35,10 +47,10 @@ Find a better solution by moving to a **better neighbor**
 
 ## Process
 
-1. Start with the **selected student**
+1. Start with the student holding the 🏆  
 2. Look at **neighboring students**
 3. If a neighbor has a **better value (closer to target)**:
-   - Move to the **best neighbor**
+   - Pass the 🏆 to the **best neighbor**
 4. **Repeat** steps 2–3
 5. **Stop** when **no neighbor is better**
 
@@ -55,37 +67,49 @@ Find a better solution by moving to a **better neighbor**
 
 ---
 
-# Approach 2 – Simulated Annealing (Improved Local Search)
+# 🔥 Approach 2 – Simulated Annealing (Improved Local Search)
 
 ## Goal
 Find a better solution by exploring neighbors while **occasionally accepting worse moves**
 
->Note on term **annealing**: When metals are heated, their atoms can move more freely; as they cool slowly, they settle into a stable, low-energy arrangement. If cooled too quickly, defects can form. Simulated annealing follows this pattern ie. start with flexibility (randomness), then slowly reduce it to reach a better overall solution.
+> **Annealing (metals):** When metals are heated, atoms move freely; as they cool slowly, they settle into a stable, low-energy structure.  
+> Simulated annealing follows this idea: **start with flexibility (randomness), then gradually reduce it**.
+
 ---
 
 ## Process
 
-1. Start with the **selected student**
+1. Start with the student holding the 🏆  
 2. Look at **neighboring students**
 3. If a neighbor has a **better value (closer to target)**:
-   - Move to that neighbor
+   - Pass the 🏆 to that neighbor
 4. If a neighbor is **worse**:
-   - **Sometimes accept** the move (based on randomness)
+   - **Sometimes pass** the 🏆 (based on randomness, see below)
 5. Gradually **reduce randomness over time**  
    *(cooling / lowering temperature)*
 6. **Repeat** until the system “stabilizes”
+
+### 🎲 Probability of Accepting Worse Moves (2 Dice)
+
+| Stage        | Temperature | Threshold | Percent |
+|--------------|------------|----------|---------|
+| Rounds 1–2   | High       | 7+       | 58.3%   |
+| Rounds 3–4   | Medium     | 9+       | 27.8%   |
+| Rounds 5–6   | Low        | 11+      | 8.3%    |
 
 ---
 
 ## Key Takeaways
 
-> Early: explore more (accept worse moves)  
-> Later: refine solution (accept only better moves)
+> **Early**: explore more (accept worse moves)  
+> **Later**: refine solution (accept only better moves)
 
 - Can **escape local minima**
 - Accepting worse moves becomes **less likely over time**
 - More likely to find a **better overall (global) solution**
 - May take longer
 - Does **not guarantee** the absolute best solution
+
+---
 
 -- end --
