@@ -1,12 +1,23 @@
 # CS 362 Artificial Intelligence and Machine Learning  
 **Spring 2026**  
 **200 points**  
-**Final Exam Period – Thursday, April 30th, 10:30 am to 12:30 pm**
+**Final Exam Period – Thursday, April 21st class, 23rd class, April 30th, final exam period 10:30 am to 12:30 pm**
 
 ## Group Project
 
 ![group project graphic](./group_project.png)
 ---
+
+## Final Project Milestones
+
+| Due Date | Milestone | Description |
+|----------|----------|-------------|
+| March 24   | Team & Topic | Form group (2–3) and submit topic (1–2 paragraphs) |
+| April 7   | Project Plan | Choose presentation date (April 21, April 23, or Final Exam April 30), 1-page outline for project and deliverables |
+|  April 21, 23, 30 | Presentations | Deliver lesson and activity |
+
+** final materials due April 30th at 1 pm. **
+___
 
 ## Overview
 
@@ -90,6 +101,8 @@ Provide a short written overview (approx. 800–1200 words):
 
 You may use AI tools, but must verify accuracy.
 
+Include the written overview in a `README.md` file in your repository.
+
 ---
 ### 4. Class Presentation & Demonstration (25 points)
 
@@ -127,19 +140,7 @@ Your repository should include all project materials.
 
 Make sure your repository is accessible (public or shared with the instructor).
 
-___
-## Final Project Milestones
-
-| Due Date | Milestone | Description |
-|----------|----------|-------------|
-| March 24   | Team & Topic | Form group (2–3) and submit topic (1–2 paragraphs) |
-| April 7   | Project Plan | Choose presentation date (April 21, April 23, or Final Exam April 30), 1-page outline for project and deliverables |
-|  April 21, 23, 30 | Presentations | Deliver lesson and activity |
-
-** final materials due April 30th at 1 pm. **
-___
-
-
+---
 ## CS 362 Group Project – Grading Rubric (200 points)
 
 ---
