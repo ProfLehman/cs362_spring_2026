@@ -79,17 +79,23 @@ Find a better solution by exploring neighbors while **occasionally accepting wor
 
 ## Process
 
-1. Start with the student holding the 🏆  
-2. Look at **neighboring students**
-3. If a neighbor has a **better value (closer to target)**:
-   - Pass the 🏆 to that neighbor
-4. If a neighbor is **worse**:
-   - **Sometimes pass** the 🏆 (based on randomness, see below)
-5. Gradually **reduce randomness over time**  
-   *(cooling / lowering temperature)*
-6. **Repeat** until the system “stabilizes”
+Start with the student holding the 🏆  
 
-### 🎲 Probability of Accepting Worse Moves (2 Dice)
+1. Look at **ALL neighboring students**
+
+2. Identify the **best neighbor** (closest to the target)
+   - If the best neighbor is **better**, then **Move** (pass the 🏆)
+   - Else: If the best neighbor is **worse**, then Roll two dice 🎲 :
+      - If dice meet threshold (see below), then **Move**, otherwise **Stay**
+
+3. Gradually **reduce randomness over time**  
+   - *(cooling / lowering temperature)*
+   - rate of **cooling** can be varied
+
+4. **Repeat (go to step 1.) ** until the system “stabilizes”
+
+
+**Probability of Accepting Worse Moves (2 Dice 🎲🎲)**
 
 | Stage        | Temperature | Threshold | Percent |
 |--------------|------------|----------|---------|
