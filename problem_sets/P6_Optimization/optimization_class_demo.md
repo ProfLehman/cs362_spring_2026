@@ -52,6 +52,7 @@ Find a better solution by moving to a **better neighbor**
 2. Look at **neighboring students**
 3. If a neighbor has a **better value (closer to target)**:
    - Pass the 🏆 to the **best neighbor**
+   - ***Note: do not back to previous neighbor (or neighbors) to prevent oscillation**
 4. **Repeat** steps 2–3
 5. **Stop** when **no neighbor is better**
 
