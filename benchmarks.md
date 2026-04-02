@@ -72,7 +72,6 @@ A human evaluation benchmark where users compare responses from different models
 
 ---
 
-```markdown
 # Short Questions to Test AI Models
 
 These are informal “probe questions” or quick checks that people use to evaluate how well an AI model performs. They are not formal benchmarks, but they are useful for quickly revealing strengths and weaknesses.
