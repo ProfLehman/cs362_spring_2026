@@ -11,7 +11,7 @@
 
 - [Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) — Ranks large language models based on standardized evaluation benchmarks.
 
-- [Chatbot Arena](https://chat.lmsys.org/) — Lets users compare AI models side-by-side through live conversations and voting.
+- [Chatbot Arena](https://arena.ai/) — Lets users compare AI models side-by-side through live conversations and voting.
 
 - [HELM (Stanford)](https://crfm.stanford.edu/helm/) — Provides a comprehensive evaluation framework for analyzing LLM performance, fairness, and reliability.
 
