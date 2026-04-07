@@ -3,9 +3,12 @@
 
 - [AI Daily Brief - Nathaniel Whittemore, All things AI in tech world, podcast ...](https://aidailybrief.ai/)  
 
-- [Nate B. Jones - All things AI via substack, tiktok, spotify, etc...](https://www.natebjones.com/projects)
+- [Nate B. Jones - All things AI via substack, TikTok, Spotify, etc...](https://www.natebjones.com/projects)
 
-  
+- [What Kind of Mind Does ChatGPT Have? New Yorker Magazine author Cal Newport](https://www.newyorker.com/science/annals-of-artificial-intelligence/what-kind-of-mind-does-chatgpt-have)
+
+- [Large Language Models book, MIT Press, author Stephan Raaijmakers ](https://www.amazon.com/Large-Language-Models-Essential-Knowledge/dp/0262552698)
+
 
 ## AI Model & Research Websites
 
