@@ -1,5 +1,11 @@
 
+## AI News
 
+- [AI Daily Brief - Nathaniel Whittemore, All things AI in tech world, podcast ...](https://aidailybrief.ai/)  
+
+- [Nate B. Jones - All things AI via substack, tiktok, spotify, etc...](https://www.natebjones.com/projects)
+
+  
 
 ## AI Model & Research Websites
 
