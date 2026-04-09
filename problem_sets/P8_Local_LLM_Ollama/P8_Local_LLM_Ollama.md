@@ -9,7 +9,7 @@
 
 ## Overview
 
-In this assignment, you will install and run a **local large language model (LLM)** using Ollama. You will interact with the model both through the command line and through a Python program.
+In this assignment, you will install and run a **local large language model (LLM)** using **[Ollama](https://ollama.com/)**. You will interact with the model both through the command line and through a Python program.
 
 You will also compare two different models and reflect on their capabilities, performance, and potential use cases.
 
