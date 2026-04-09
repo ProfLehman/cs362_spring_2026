@@ -1,4 +1,8 @@
 ```python
+import requests
+
+url = "http://localhost:11434/api/chat"
+
 messages = []
 
 while True:
@@ -15,4 +19,8 @@ while True:
     print("AI:", reply)
 
     messages.append({"role": "assistant", "content": reply})
-    ```
+
+    # clear context
+    # messages = []
+
+```
