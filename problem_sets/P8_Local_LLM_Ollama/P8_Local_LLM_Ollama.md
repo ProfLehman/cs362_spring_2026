@@ -61,7 +61,7 @@ Run:
 ollama run qwen2.5:0.5b
 ```
 
-Ask at least **two questions**.
+Ask at least **four questions**.
 
 ---
 
@@ -75,7 +75,7 @@ ollama run smollm2:135m
 
 or another small model available in Ollama.
 
-Ask the **same two questions** as above.
+Ask the **same four questions** as above.
 
 ---
 
@@ -141,7 +141,7 @@ Your program must:
 1. Send at least one question to the model
 2. Print the model’s response
 3. Use a `messages` list structure
-4. (Optional challenge) Maintain a multi-turn conversation
+4. Feel free to enhance your code
 
 ---
 
