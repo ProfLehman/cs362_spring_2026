@@ -110,17 +110,26 @@ import requests
 
 url = "http://localhost:11434/api/chat"
 
-data = {
-    "model": "qwen2.5:0.5b",
-    "messages": [
-        {"role": "user", "content": "Give one sentence definition of AI."}
-    ],
-    "stream": False
-}
+messages = []
 
-response = requests.post(url, json=data)
+while True:
+    user_input = input("You: ")
+    messages.append({"role": "user", "content": user_input})
 
-print(response.json()["message"]["content"])
+    response = requests.post(url, json={
+        "model": "qwen2.5:0.5b",
+        "messages": messages,
+        "stream": False
+    })
+
+    reply = response.json()["message"]["content"]
+    print("AI:", reply)
+
+    messages.append({"role": "assistant", "content": reply})
+
+    # clear context
+    # messages = []
+
 ```
 
 ---
