@@ -123,7 +123,7 @@ You are encouraged (but not required) to include a demonstration, such as:
 ---
 ### 5. Attendance (25 points)
 
-Attending and actively participating in all of the presentations is 20 points of your project grade.
+Attending and actively participating in all of the presentations is 25 points of your project grade.
 
 ---
 ### 6. Submission
