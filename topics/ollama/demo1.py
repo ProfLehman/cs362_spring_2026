@@ -20,7 +20,7 @@ while True:
 
     # Send to model
     response = chat(
-        model="qwen2.5",   # use smaller model for speed
+        model="qwen3:4b",   # use smaller model for speed
         messages=[
             {"role": "user", "content": question}
         ]
